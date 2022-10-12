@@ -9,7 +9,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "deploy": "cp -r dist/* /var/www/lemonjamesd.com/"
+    "deploy": "astro build && cp -r dist/* /var/www/lemonjamesd.com/"
   },
   "dependencies": {
     "@astrojs/svelte": "^1.0.1",
