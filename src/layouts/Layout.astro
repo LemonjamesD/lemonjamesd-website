@@ -11,9 +11,17 @@ const { title } = Astro.props;
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<meta content="LemonjamesD" property="og:title" />
+		<meta content="Personal Website thingy." property="og:description" />
+		<meta content="https://lemonjamesd.com" property="og:url" />
+		<meta
+			content="https://embed.com/public/lemonslice.png"
+			property="og:image"
+		/>
+		<meta content="#FFF302" data-react-helmet="true" name="theme-color" />
 	</head>
 	<body>
 		<slot />
