@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Box from "./Box.svelte";
-	export let page = "/index/";
+	export let page = "/";
 </script>
 
 <a href={page}>
