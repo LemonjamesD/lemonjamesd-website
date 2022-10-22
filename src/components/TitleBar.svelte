@@ -2,9 +2,11 @@
 	import Box from "./Box.svelte";
 </script>
 
-<Box float="left">Test</Box>
-<Box float="left">Test</Box>
-<Box float="left">Test</Box>
+<nav>
+	<Box float="left">Test</Box>
+	<Box float="left">Test</Box>
+	<Box float="left">Test</Box>
+</nav>
 <br />
 <br />
 <br />
