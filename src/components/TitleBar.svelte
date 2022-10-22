@@ -1,11 +1,11 @@
 <script lang="ts">
-	import Box from "./Box.svelte";
+	import BoxButton from "./BoxButton.svelte";
 </script>
 
 <nav>
-	<Box float="left">Test</Box>
-	<Box float="left">Test</Box>
-	<Box float="left">Test</Box>
+	<BoxButton>Test</BoxButton>
+	<BoxButton>Test</BoxButton>
+	<BoxButton>Test</BoxButton>
 </nav>
 <br />
 <br />
