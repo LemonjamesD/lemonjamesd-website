@@ -3,10 +3,13 @@
 </script>
 
 <nav>
-	<BoxNav>Home</BoxNav>
-	<BoxNav page="/blogs/">Blogs</BoxNav>
-	<BoxNav page="/links/">Links</BoxNav>
+	<BoxNav className="box-hover">Home</BoxNav>
+	<BoxNav className="box-hover" page="/blogs/">Blogs</BoxNav>
+	<BoxNav className="box-hover" page="/links/">Links</BoxNav>
 </nav>
 <br />
 <br />
 <br />
+
+<style lang="less">
+</style>
