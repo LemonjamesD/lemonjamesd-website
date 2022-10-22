@@ -3,9 +3,9 @@
 </script>
 
 <nav>
-	<BoxNav>Test</BoxNav>
-	<BoxNav>Test</BoxNav>
-	<BoxNav>Test</BoxNav>
+	<BoxNav>Home</BoxNav>
+	<BoxNav page="/blogs/">Blogs</BoxNav>
+	<BoxNav page="/links/">Links</BoxNav>
 </nav>
 <br />
 <br />
