@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Box from "../components/Box.svelte";
+import TitleBar from "../components/TitleBar.svelte";
+---
+
+<Layout title="LemonjamesD">
+	<TitleBar />
+	<main>
+		<Box><p>Could not find that page: 404.</p></Box>
+	</main>
+</Layout>
+
+<style lang="less">
+	p {
+		font-size: 7vw;
+		text-align: center;
+		margin: 1vh;
+	}
+</style>
