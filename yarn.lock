@@ -365,6 +365,13 @@
   resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.15.10.tgz#78a42897c2cf8db9fd5f1811f7590393b77774c7"
   integrity sha512-w0Ou3Z83LOYEkwaui2M8VwIp+nLi/NA60lBLMvaJ+vXVMcsARYdEzLNE7RSm4+lSg4zq4d7fAVuzk7PNQ5JFgg==
 
+"@fireworks-js/svelte@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@fireworks-js/svelte/-/svelte-2.5.1.tgz#826ab77585fdbc8b8fe3e3ad50d4369d70a5585b"
+  integrity sha512-qjOeF9obbA3kKyHdcjuGPwJ/EpYlf7naahC58SbYx4uofpHPogJfedGyw6Wjh/LYq4KR71jfqcKpVZkb93+wxQ==
+  dependencies:
+    fireworks-js "2.5.1"
+
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.1.1.tgz#e5d2e450306a9491e3bd77e323e38d7aff315996"
@@ -1521,6 +1528,11 @@ find-yarn-workspace-root2@1.2.16:
   dependencies:
     micromatch "^4.0.2"
     pkg-dir "^4.2.0"
+
+fireworks-js@2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/fireworks-js/-/fireworks-js-2.5.1.tgz#331d0a533aea10b4e09873ba505c29f7493d2d61"
+  integrity sha512-vl4L90PzMXelPax3tR+X8e0zJsTn5Pstb3kmbcj4gEuH4nkwtNcnpieMqS+PgpsV832awtpYQ1lTdxXHLudrqw==
 
 focus-options-polyfill@^1.6.0:
   version "1.6.0"

@@ -4,5 +4,10 @@ import svelte from "@astrojs/svelte";
 
 export default defineConfig({
   integrations: [svelte({
-  })]
+  })],
+  vite: {
+    ssr: {
+      noExternal: ['@fireworks-js/svelte']
+    }
+  }
 });
