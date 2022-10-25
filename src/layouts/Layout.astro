@@ -26,21 +26,7 @@ const { title } = Astro.props;
 		<meta content="#FFF302" data-react-helmet="true" name="theme-color" />
 	</head>
 	<body>
-		<TitleBar />
 		<slot />
-		<style is:global>
-			.box-hover:hover {
-				background: rgb(133, 141, 141);
-				cursor: pointer;
-			}
-			html {
-				background-color: grey;
-			}
-
-			a {
-				color: currentColor;
-				text-decoration: none;
-			}
-		</style>
+		<style is:global></style>
 	</body>
 </html>
