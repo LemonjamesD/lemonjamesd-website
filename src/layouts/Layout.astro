@@ -1,4 +1,6 @@
 ---
+import TitleBar from "../components/TitleBar.svelte";
+
 export interface Props {
 	title: string;
 }
@@ -24,6 +26,7 @@ const { title } = Astro.props;
 		<meta content="#FFF302" data-react-helmet="true" name="theme-color" />
 	</head>
 	<body>
+		<TitleBar />
 		<slot />
 		<style is:global>
 			.box-hover:hover {
