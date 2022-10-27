@@ -25,6 +25,19 @@ const { title } = Astro.props;
 	</head>
 	<body>
 		<slot />
-		<style is:global></style>
+		<style is:global>
+			html {
+				height: 100%;
+			}
+			body {
+				background: hsla(135, i 100%, 97%, 1);
+
+				background: linear-gradient(
+					180deg,
+					hsla(135, 100%, 97%, 1) 0%,
+					hsla(205, 100%, 86%, 1) 100%
+				);
+			}
+		</style>
 	</body>
 </html>
