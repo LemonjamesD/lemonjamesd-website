@@ -1,16 +1,16 @@
 <script lang="ts">
 	export let rotation = 0;
 
-	function cssVariables(node, variables) {
+	function cssVariables(node: HTMLElement, variables: Object) {
 		setCssVariables(node, variables);
 
 		return {
-			update(variables) {
+			update(variables: Array<string>) {
 				setCssVariables(node, variables);
 			},
 		};
 	}
-	function setCssVariables(node, variables) {
+	function setCssVariables(node: HTMLElement, variables: any) {
 		for (const name in variables) {
 			node.style.setProperty(`--${name}`, variables[name]);
 		}
