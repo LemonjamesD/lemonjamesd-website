@@ -1,5 +1,6 @@
 <script lang="ts">
-	export let rotation = 0;
+	export let rotation: number = 0;
+	export let style: string = "";
 
 	function cssVariables(node: HTMLElement, variables: Object) {
 		setCssVariables(node, variables);
@@ -17,7 +18,7 @@
 	}
 </script>
 
-<div use:cssVariables={{ rotation }}>
+<div use:cssVariables={{ rotation }} {style}>
 	<p>
 		<slot />
 	</p>
