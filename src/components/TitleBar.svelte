@@ -4,8 +4,8 @@
 
 <nav>
 	<BoxNav className="box-hover">Home</BoxNav>
-	<BoxNav className="box-hover" page="/blogs/">Blogs</BoxNav>
-	<BoxNav className="box-hover" page="/links/">Links</BoxNav>
+	<BoxNav className="box-hover" page="/Blogs/">Blogs</BoxNav>
+	<BoxNav className="box-hover" page="/Links/">Links</BoxNav>
 </nav>
 <br />
 <br />
